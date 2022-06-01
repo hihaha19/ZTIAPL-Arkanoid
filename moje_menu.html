@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Hlavne menu</title>
+	<meta charset="utf-8">	
+	<link href="css/style_menu.css" rel="stylesheet"/>
+	<script src="js/zvuk.js"></script>
+	
+</head>
+
+
+<body>
+
+	<div class="container">
+	<img src="obrazky/vseobecne_pozadie.png">
+
+	<a href='arkanoid.html'><button class="hrat">Hrať</button></a>
+	<a href='ovladanie.html'><button class="ovladanie">Ovládanie</button></a>
+	<a href='instrukcie.html'><button class="instrukcie">Inštrukcie</button></a>
+	<a href='koniec_hry.html'><button class="koniec">Koniec hry</button></a></div>
+
+	<div class="nadpis_hlavny">
+	<p>WiningIt</p>
+	</div>
+	 
+		<img class = "srdce" id="srdce" src="obrazky/zivot.png">
+		<img class = "tehla" id="tehla" src="obrazky/tehla.png">
+		<img class = "hviezda" id="hviezda" src="obrazky/hviezda.png">
+		 
+	<audio id="hudba_pozadie" autoplay loop>
+	<source src="audio/pozadie_v_hre.mp3" type="audio/mp3">
+	</audio>
+
+	<button class="zvuk" onClick="action(); hraj();">
+	<img src="obrazky/zvuk.png" width="80px" id="ImageButton1"></button>
+
+</body>
+
+</html>

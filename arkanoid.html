@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Arkanoid</title>
+	<link href="css/style_hra.css" rel="stylesheet"/>
+	<script src="js/hra.js"></script>
+</head>
+
+
+<body>
+	<div>
+	<canvas id="myCanvas" width="700" height="630"></canvas>
+	<img id="lopta" src="obrazky/lopta.png" style="display: none">
+	<img id="pozadie" src="obrazky/pozadie.png" style="display: none">
+	<img id="space" src="obrazky/space.png" style="display: none" width="205" height="56">
+	<img id="bonus" src="obrazky/bonus.png" style="display: none" width="300" height="300">
+	<img id="zvuk" src="obrazky/zvuk.png" style="display: none">
+	<img id="vypnuty_zvuk" src="obrazky/vypnuty_zvuk.png" style="display: none">
+	<img id="tehla" src="obrazky/tehla.png" style="display: none">
+	</div>
+
+	<div class = "nadpis_v_hre"> 
+	<p>WiningIt</p></div>
+
+	<button class="button1" onClick="action(); hraj();"><img src="obrazky/zvuk.png" width="50px" id="ImageButton1"></button>
+
+	<audio id="hudba_pozadie" autoplay loop>
+	<source src="audio/pozadie_v_hre.mp3" type="audio/mp3">
+	</audio>
+
+	<a class="level">Obtiažnosť: </a>
+		<a id="level"></a>
+		
+	<a class="zivoty">Životy: </a>
+		<a id="zivoty"></a>
+		
+	<a class="skore">Skóre: </a>
+		<a id="skore"></a>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+div {
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	border-width: 3px;	
+}
+
+.level {
+	position: absolute;
+	margin-left: 400px;
+	top: 60px;
+	font-size: 20px;
+	color: #DAA520;
+}
+
+#level {
+	position: absolute;
+	margin-left: 400px;
+	top: 90px;
+	font-size: 20px;
+	color: #DAA520;
+}
+
+.zivoty {
+	position: absolute;
+	margin-left: 900px;
+	top: 60px;
+	font-size: 20px;
+	color: #DAA520;
+}
+
+#zivoty {
+	position: absolute;
+	margin-left: 930px;
+	top: 90px;
+	font-size: 20px;
+	color: #DAA520;
+}
+
+.skore {
+	position: absolute;
+	margin-left: 800px;
+	top: 60px;
+	font-size: 20px;
+	color: #DAA520;
+}
+
+#skore {
+	position: absolute;
+	margin-left: 820px;
+	top: 90px;
+
+	font-size: 20px;
+	color: #DAA520;
+}
+
+#myCanvas{
+	border: 3px solid green;
+}
+
+.nadpis_v_hre{
+	position: absolute;
+	color: #FFD700;
+	top: 40px;
+	left: 550px;
+	font-size: 200%;
+}
+
+.button1{
+	background-color: transparent;
+	border: none;
+	text-decoration: none;
+	position: absolute;
+	margin: 4px 2px;
+	top:  65px;
+	left: 320px;
+}
